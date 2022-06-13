@@ -1,5 +1,5 @@
 use ecsel::run;
 
 fn main() {
-    run();
+    pollster::block_on(run());
 }
